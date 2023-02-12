@@ -1,13 +1,12 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { GithubLogo, TwitterLogo, EnvelopeSimple } from 'phosphor-react';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Salief Lewis</title>
-        <meta name='description' content='Design Engineer' />
+        <meta name='description' content='Product Design & Engineering' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
@@ -18,7 +17,7 @@ export default function Home() {
             target='_blank'
             className={styles.card}
           >
-            <h3>Recent Editions Bot &rarr;</h3>
+            <h3>Recent Editions Bot</h3>
             <p>Node.js</p>
           </a>
 
@@ -27,7 +26,7 @@ export default function Home() {
             target='_blank'
             className={styles.card}
           >
-            <h3>Public Assembly &rarr;</h3>
+            <h3>Public Assembly</h3>
             <p>Design / Engineering</p>
           </a>
 
@@ -36,7 +35,7 @@ export default function Home() {
             target='_blank'
             className={styles.card}
           >
-            <h3>Recent Editions &rarr;</h3>
+            <h3>Recent Editions</h3>
             <p>Frontend</p>
           </a>
 
@@ -45,7 +44,7 @@ export default function Home() {
             target='_blank'
             className={styles.card}
           >
-            <h3>Magenta Hydrangeas &rarr;</h3>
+            <h3>Magenta Hydrangeas</h3>
             <p>Frontend / Photography</p>
           </a>
 
@@ -54,7 +53,7 @@ export default function Home() {
             target='_blank'
             className={styles.card}
           >
-            <h3>Release Club &rarr;</h3>
+            <h3>Release Club</h3>
             <p>Hackathon: Frontend</p>
           </a>
 
@@ -63,17 +62,8 @@ export default function Home() {
             target='_blank'
             className={styles.card}
           >
-            <h3>ZSK Redesign &rarr;</h3>
+            <h3>ZSK Redesign</h3>
             <p>Product Design / Writing</p>
-          </a>
-
-          <a
-            href='https://render-hack.vercel.app/'
-            target='_blank'
-            className={styles.card}
-          >
-            <h3>Zora API Hack &rarr;</h3>
-            <p>Hackathon: Frontend</p>
           </a>
 
           <a
@@ -81,7 +71,7 @@ export default function Home() {
             target='_blank'
             className={styles.card}
           >
-            <h3>143 Washington &rarr;</h3>
+            <h3>143 Washington</h3>
             <p>Adaptive Reuse</p>
           </a>
 
@@ -90,23 +80,11 @@ export default function Home() {
             target='_blank'
             className={styles.card}
           >
-            <h3>Connect Wallet Design &rarr;</h3>
+            <h3>Connect Wallet Design</h3>
             <p>Product Design / Writing</p>
           </a>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a href='https://github.com/salieflewis' target='_blank'>
-          <GithubLogo size={24} />
-        </a>
-        <a href='https://twitter.com/salieflewis' target='_blank'>
-          <TwitterLogo size={24} />
-        </a>
-        <a href='mailto:salieflewis@gmail.com' target='_blank'>
-          <EnvelopeSimple size={24} />
-        </a>
-      </footer>
     </div>
   );
 }

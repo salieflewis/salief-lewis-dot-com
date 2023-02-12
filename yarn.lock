@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@fontsource/azeret-mono@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@fontsource/azeret-mono/-/azeret-mono-4.5.12.tgz#e1fb5120cace92d2c21d1303cf49914c16500fb1"
+  integrity sha512-oW/PQUqREdv7wsM2KWSPR+jeg1obZoofiNzARsIuiEBbCjFd0/V8eg47D6pc4Rl9OcKeiTRfOlONuN8IIaar3A==
+
 "@next/env@13.0.1":
   version "13.0.1"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.0.1.tgz#0361e203c7bfbc7b69679ec48f7b45a8f4cb1c2c"

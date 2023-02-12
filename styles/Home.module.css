@@ -59,15 +59,14 @@
 
 .card h3 {
   margin: 0 0 0.75rem 0;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 .card p {
   margin: 0;
-  font-size: 1rem;
-  line-height: 0.25rem;
-  color: #808080;
+  font-size: .85rem;
+  color: #969696;
 }
 
 .logo {
