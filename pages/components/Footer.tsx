@@ -1,6 +1,6 @@
 import { GithubLogo, TwitterLogo, EnvelopeSimple } from 'phosphor-react';
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="footer">
       <a href='https://github.com/salieflewis' target='_blank'>
@@ -15,3 +15,5 @@ export function Footer() {
     </footer>
   );
 }
+
+
