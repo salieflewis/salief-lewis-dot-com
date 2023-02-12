@@ -1,9 +1,8 @@
 import { GithubLogo, TwitterLogo, EnvelopeSimple } from 'phosphor-react';
-import styles from '../styles/Home.module.css';
 
 export function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className="footer">
       <a href='https://github.com/salieflewis' target='_blank'>
         <GithubLogo size={24} />
       </a>
