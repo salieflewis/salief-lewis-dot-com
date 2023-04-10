@@ -24,25 +24,32 @@ export function Header() {
   );
 }
 
-function Currently() {
+function About() {
   return (
-    // bg-dark-charcoal
-    <div className="w-full  p-4 rounded-md text-center border border-american-silver hover:border-raisin-black hover:bg-american-silver hover:text-raisin-black">
-      <span className="text-lg">Core Contributor at Public Assembly</span>
-    </div>
+    <p className="text-lg">Currently a core contributor at Public Assembly</p>
   );
 }
 
 function Projects() {
   return (
-    <div className="grid grid-cols-2">
-      <button>
-        <a href="http://recenteditions.app/" target="_blank">
-          <h3>Recent Editions &rarr;</h3>
-          <p>Frontend</p>
-        </a>
-      </button>
-    </div>
+    <>
+      <div className="p-4 text-center rounded border border-american-silver">
+        <button>
+          <a href="http://recenteditions.app/" target="_blank">
+            <h3>Recent Editions {"\u2197"}</h3>
+            <p>Frontend</p>
+          </a>
+        </button>
+      </div>
+      <div className="p-4 text-center rounded border border-american-silver">
+        <button>
+          <a href="http://flexible.vercel.app/" target="_blank">
+            <h3>Flexible {"\u2197"}</h3>
+            <p>Frontend</p>
+          </a>
+        </button>
+      </div>
+    </>
   );
 }
 
@@ -57,9 +64,13 @@ export default function Home() {
       </Head>
       <Header />
 
-      <main className="flex flex-col gap-y-8">
-        {/* Currently */}
-        <Currently />
+      <main className="gap-y-8">
+        {/* About */}
+        <About />
+        <div className="grid grid-cols-2">
+          {/* Projects */}
+          <Projects />
+        </div>
       </main>
     </div>
   );
